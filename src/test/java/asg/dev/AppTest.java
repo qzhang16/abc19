@@ -15,6 +15,11 @@ public class AppTest
     @Test
     public void shouldAnswerWithTrue()
     {
-        assertTrue( true );
+        assertTrue(true);
+    }
+    
+    @Test
+    public void isStringUtils() {
+        assertTrue(org.apache.commons.lang3.StringUtils.capitalize("hello, world").equals("Hello, world"));
     }
 }
